@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+header.backImage {
+    background-image: url("../../img/homemade-pizza-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    min-height: 501px;
+    width: auto;
+}
+.backImage-header{
+    position: relative;
+    top:14rem;
+    font-size: 4.5rem;
+}
+.card{
+    position: absolute;
+    bottom: 25%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.card-heading{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:1.5rem ;
+}
+.card-p{
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-height: 3rem;
+}
+.card span{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    font-size: 20px;
+}
+@media only screen and (min-width:1200px){ /* XL */
+	.backImage-header{
+        position: relative;
+        top:14rem;
+        font-size: 4.5rem;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	.backImage-header{
+        position: relative;
+        top:15rem;
+        font-size: 4rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+	.backImage-header{
+        position: relative;
+        top:16rem;
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    .backImage-header{
+        position: relative;
+        top:18rem;
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width:574px){ /* XS */
+    .backImage-header{
+        position: relative;
+        top:17rem;
+        font-size: 2rem;
+    }
+}
